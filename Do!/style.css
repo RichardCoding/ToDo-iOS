@@ -1,0 +1,98 @@
+/* 375px * 667px*/
+
+body {
+	margin: 0 0 0 0;
+}
+
+header {
+	width: 375px;
+	height: 60px;
+	background: #26A69A;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+header input {
+	width: 335px;
+	height: 35px;
+	margin-left: 13px;
+	padding-left: 8px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin-top: 11.5px;
+	border: none;
+	background: rgba(128,203,196,0.55);
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	outline: none;
+}
+
+header button {
+	position: relative;
+	width: 37px;
+	height: 37px;
+	float: right;
+	border: none;
+	background: #ECEFF1;
+	top: -37px;
+	right: 18px;
+	border-radius: 20px;
+	cursor: pointer;
+	outline: none;
+}
+
+header img.aggiungi_img {
+	position: relative;
+	float: right;
+	top: -28px;
+	right: -11px;
+	cursor: pointer;
+}
+
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	position: relative;
+	width: 330px;
+	height: 20px;
+	left: -22px;
+	font-family: 'Roboto', sans-serif;
+	background: #ECEFF1;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	outline: none;
+}
+
+ul li button.fatto {
+	position: relative;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border: none;
+	z-index: 1;
+	background: none; 
+	top: -10px;
+	border-radius: 10px;
+	cursor: pointer;
+	outline: none;
+}
+
+ul li img.img_fatto {
+	position: relative;
+	width: 25px;
+	height: 25px;
+	z-index: 0;
+	float: right;
+	top: -2px;
+	right: -32.5px;
+	cursor: pointer;
+	outline: none;
+}
